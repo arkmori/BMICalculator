@@ -75,7 +75,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
-        android:layout_marginStart="16dp" />
+        android:layout_marginStart="16dp"
+         />
 
     <EditText
         android:id="@+id/heightInput"
@@ -87,7 +88,8 @@
         android:hint="e.g. 1.75"
         android:autofillHints=""
         app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="@+id/weightInput" />
+        app:layout_constraintStart_toStartOf="@+id/weightInput"
+         />
 
     <EditText
         android:id="@+id/BMIResult"
